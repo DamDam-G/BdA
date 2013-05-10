@@ -26,7 +26,8 @@ def Co(request):
     return render(request, 'co.html', {})
 
 def Blog(request):
-    return render(request, 'blog.html', {})
+    data = ['', '', '', '', '', '']
+    return render(request, 'blog.html', {'data':data})
 
 def Article(request):
     return render(request, 'article.html', {})

@@ -26,7 +26,7 @@ def Co(request):
     return render(request, 'co.html', {})
 
 def Blog(request):
-    data = ['', '', '', '', '', '']
+    data = msg.objects.filter(id)
     return render(request, 'blog.html', {'data':data})
 
 def Article(request):

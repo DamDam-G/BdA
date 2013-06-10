@@ -5,13 +5,8 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'bda.views.home', name='home'),
-    # url(r'^bda/', include('bda.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
-)
+                       url('^$', 'bda.iw.views.Index'),
+                       url(r'^index/$', 'bda.iw.views.Index'),
+                       url(r'^co/$', 'bda.iw.views.Co'),
+                       url(r'^blog/$', 'bda.iw.views.Blog'),
+                       url(r'^article/$', 'bda.iw.views.Article'))

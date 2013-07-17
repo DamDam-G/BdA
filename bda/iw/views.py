@@ -13,7 +13,19 @@ def Index(request):
     @details Description:
     This is a view function. It displays the index
     """
-    return render(request, 'index.html', {})
+    data = msg.objects.order_by('-id')
+    return render(request, 'index.html', {'data':data})
+
+def Index2(request):
+    """
+    @author Damien Goldenberg
+    @name Index:
+    @param - Request, HTTPRequest object
+    @details Description:
+    This is a view function. It displays the index
+    """
+    data = msg.objects.order_by('-id')
+    return render(request, 'index2.html', {'data':data})
 
 def Co(request):
     """
@@ -25,9 +37,25 @@ def Co(request):
     """
     return render(request, 'co.html', {})
 
+def Register(request):
+    """!
+@author Damien Goldenberg
+@name Co:
+@param - Request, HTTPRequest object
+@details Description:
+This is a view function. It displays the connection form
+"""
+    return render(request, 'register.html', {})
+
 def Blog(request):
-    data = msg.objects.filter(id)
+    data = msg.objects.order_by('-id')
     return render(request, 'blog.html', {'data':data})
 
 def Article(request):
-    return render(request, 'article.html', {})
+    data = msg.objects.filter(id=request.POST.get("id"))
+    return render(request, 'article.html', {'data':data})
+
+def Control(request):
+    if request.POST.get("id") and request.is_ajax():
+        views = ['co', 'register', 'pfh']
+        return render_to_response(views[int(request.POST.get("id"))]+'.html', {})

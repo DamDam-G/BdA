@@ -58,9 +58,51 @@ nav
     left:30px;
 }
 
+#display
+{
+    width:980px;
+    min-height:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.me
+{
+    margin-right:5px;
+}
+
 .profil
 {
     float:left;
+}
+
+.artc:hover
+{
+    -moz-animation:art 2s linear infinite;
+}
+
+@-moz-keyframes art
+{
+    0%
+    {
+        -moz-transform:rotate(0deg);
+    }
+    25%
+    {
+        -moz-transform:rotate(25deg);
+    }
+    50%
+    {
+        -moz-transform:rotate(0deg);
+    }
+    75%
+    {
+        -moz-transform:rotate(-25deg);
+    }
+    100%
+    {
+        -moz-transform:rotate(0deg);
+    }
 }
 
 /*konami*/

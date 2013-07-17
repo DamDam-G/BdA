@@ -12,7 +12,7 @@
         <body>
         <a href="index.html" class="ex"><div id="logo"></div></a>
         <nav class="btn-toolbar">
-            <div class="btn-group hidden-tablet hidden-phone me">
+            <div class="btn-group hidden-tablet hidden-phone">
                 <a id="1" class="menu" href="#"><button class="btn btn-inverse "><i class="icon-bookmark icon-white"></i>B.D.A</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -25,7 +25,7 @@
                     <li><a id="6"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Théâtre</a></li>
                 </ul>
             </div>
-            <div class="btn-group hidden-tablet hidden-phone me">
+            <div class="btn-group hidden-tablet hidden-phone">
                 <a id="7" class="menu" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>P.F.H</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -38,7 +38,7 @@
                     <li><a id="12"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Jeux de Rôle</a></li>
                 </ul>
             </div>
-            <div class="btn-group hidden-tablet hidden-phone me">
+            <div class="btn-group hidden-tablet hidden-phone">
                 <a id="13" class="menu" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Galerie</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -48,16 +48,18 @@
                     <li><a id="15"  class="menu"  href="#"><i class="icon-arrow-right"></i>titi</a></li>
                     <li><a id="16"  class="menu"  href="#"><i class="icon-arrow-right"></i>toto</a></li>
                 </ul>
-            </div>&nbsp
-            <a id="17" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
-            <a id="18" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
-            <a id="19" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>
-            <a href="/co/" data-target="#myCo" role="button" class="btn btn-inverse me" data-toggle="modal"><i class="icon-user icon-white"></i>Connexion</a>
-            <a href="/register/" role="button" class="btn btn-inverse me" data-toggle="modal" data-target="#myReg"><i class="icon-book icon-white"></i>S'inscrire ?</a>
+            </div>
+            <a id="17" class="menu hidden-tablet hidden-phone" href="#"><button class="btn btn-inverse offset2"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
+            <a id="18" class="menu hidden-tablet hidden-phone" href="#"><button class="btn btn-inverse offset1"><i class="icon-bookmark icon-white"></i>Contact</button></a>
+            <button id="play" class="btn btn-success hidden-desktop"><i class="icon-play"></i> Play</button>
+            <button id="stop" class=" btn btn-danger hidden-desktop"><i class="icon-stop"></i> Stop</button>
         </nav>
-            <div id="display">
+
+        <br /><div class="row-fluid">
+            <div id="display" class="span9">
                 {% load filter %}
                 {% for t in data %}
+
                     <div id="{{ t.id }}" class="span3 artc">
                         <div class="hero-unit">
                             <h2>{{ t.title }}</h2>
@@ -68,6 +70,56 @@
                     </div>
                 {% endfor %}
             </div>
+            <div class="span2">
+                <br />
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <audio id="playlist" class="hidden-tablet hidden-phone" controls="true" loop="true">
+                            <source src="../public/sound/paradise.ogv" type="audio/ogg">
+                            <source src="../public/sound/paradise.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="span2 ">
+                            <a href="co.html" data-target="#myCo" role="button" class="label" data-toggle="modal"><i class="icon-user"></i>Connexion</a>
+                        </div>
+                        <div class="span2 offset5">
+                            <a href="register.html" role="button" class="label" data-toggle="modal" data-target="#myReg"><i class="icon-book"></i>S'inscrire ?</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="calendar"></div>
+                <div id="myCarousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <?php
+                                        for($i = 1; $i < 16; $i++)
+                                        {
+                                    ?>
+                        <li data-target="#myCarousel" data-slide-to="<?php echo $i; ?>"></li>
+                        <?php
+                                        }
+                                    ?>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item"><img class="container" src="../public/img/carrou/0.png" /></div>
+                        <?php
+                                                                    for($i = 1; $i < 16; $i++)
+                                                                    {
+                                                                ?>
+                        <div class="item"><img class="container" src="../public/img/carrou/<?php echo $i; ?>.png" /></div>
+                        <?php
+                                                                    }
+                                                                ?>
+
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+        </div>
+
         <!-- gestion des modal-->
         <div id="article" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-header">
@@ -105,8 +157,8 @@
                     <button class="btn btn-primary">Envoyer</button>
             </form>
         </div>
-        <script src="/public/js/jquery-2.0.3.min.js"></script>
-        <script src="/public/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/public/js/bda.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="../public/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../public/js/bda.js"></script>
     </body>
 </html>

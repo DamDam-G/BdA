@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/js/bda2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/js/jquery-2.0.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bda/iw/templates/article.php" afterPath="$PROJECT_DIR$/bda/iw/templates/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/public/js/bda.js" afterPath="$PROJECT_DIR$/bda/iw/public/js/bda.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/index.html" afterPath="$PROJECT_DIR$/bda/iw/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/public/css/style.css" afterPath="$PROJECT_DIR$/bda/iw/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/urls.py" afterPath="$PROJECT_DIR$/bda/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/views.py" afterPath="$PROJECT_DIR$/bda/iw/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bda.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373851530850" ignored="false" />
+    <file path="/Dummy.txt" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1374109750159" ignored="false" />
     <file path="/settings.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368180611664" ignored="false" />
     <file path="/views.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373936799249" ignored="false" />
     <file path="/urls.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373936338302" ignored="false" />
@@ -54,7 +45,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="41" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.40750325">
+                <state line="78" column="14" selection-start="5150" selection-end="5150" vertical-scroll-proportion="0.78654593">
                   <folding />
                 </state>
               </provider>
@@ -63,7 +54,7 @@
           <file leaf-file-name="co.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bda/iw/templates/co.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -81,7 +72,7 @@
           <file leaf-file-name="index2.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bda/iw/templates/index2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="85" column="30" selection-start="5137" selection-end="5587" vertical-scroll-proportion="-43.75">
+                <state line="85" column="30" selection-start="5137" selection-end="5587" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -109,9 +100,7 @@
             <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="36" column="7" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#24#79#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -150,7 +139,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bda/iw/public/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="3" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.53178483">
+                <state line="68" column="3" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.018337408">
                   <folding />
                 </state>
               </provider>
@@ -196,9 +185,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="52" />
-    <option name="width" value="1680" />
-    <option name="height" value="974" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1682" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -407,29 +397,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bda" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -451,6 +418,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bda" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -475,7 +465,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -520,15 +510,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="52" width="1680" height="974" extended-state="6" />
+    <frame x="-1" y="24" width="1682" height="1003" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1119951" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1132191" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -537,6 +526,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -605,9 +595,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bda/iw/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="7" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templatetags/filter.py">
@@ -619,32 +607,22 @@
     </entry>
     <entry file="file://$USER_HOME$/netpolling/netpolling/iw/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.9168704">
-          <folding />
-        </state>
+        <state line="4" column="20" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.9168704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="65" selection-end="243" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
+        <state line="10" column="20" selection-start="65" selection-end="243" vertical-scroll-proportion="-6.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/pfh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="81" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/public/js/bda2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/public/js/jquery-2.0.3.min.js">
@@ -677,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="30" selection-start="5137" selection-end="5587" vertical-scroll-proportion="-43.75">
+        <state line="85" column="30" selection-start="5137" selection-end="5587" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -699,9 +677,7 @@
     <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="7" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#24#79#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.40750325">
+        <state line="78" column="14" selection-start="5150" selection-end="5150" vertical-scroll-proportion="0.78654593">
           <folding />
         </state>
       </provider>

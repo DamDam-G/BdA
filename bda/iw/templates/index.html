@@ -52,8 +52,6 @@
             <a id="17" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
             <a id="18" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
             <a id="19" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>
-            <a href="/co/" data-target="#myCo" role="button" class="btn btn-inverse me" data-toggle="modal"><i class="icon-user icon-white"></i>Connexion</a>
-            <a href="/register/" role="button" class="btn btn-inverse me" data-toggle="modal" data-target="#myReg"><i class="icon-book icon-white"></i>S'inscrire ?</a>
         </nav>
             <div id="display">
                 {% load filter %}
@@ -78,32 +76,6 @@
             <div class="modal-footer">
                 <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
             </div>
-        </div>
-        <div id="myCo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
-                <h3>Connexion</h3>
-            </div>
-            <form action="../controller/controller.php?c=0" method="post" enctype="application/x-www-form-urlencoded">
-                <div class="modal-body">
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                    <button class="btn btn-primary">Connexion</button>
-                </div>
-            </form>
-        </div>
-        <div id="myReg" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
-                <h3>Inscription</h3>
-            </div>
-            <form action="../controller/controller.php?c=1" method="post" enctype="application/x-www-form-urlencoded">
-                <div class="modal-body"></div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                    <button class="btn btn-primary">Envoyer</button>
-            </form>
         </div>
         <script src="/public/js/jquery-2.0.3.min.js"></script>
         <script src="/public/bootstrap/js/bootstrap.min.js"></script>

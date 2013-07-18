@@ -3,11 +3,15 @@
     <head>
     </head>
     <body>
-        {% load filter %}
         {% for t in data %}
-            {%if forloop.counter|Modulo:3 == 0 %}
-                {{ forloop.counter }}
-            {% endif %}
+            <div id="{{ t.id }}" class="span3 artc">
+                <div class="hero-unit">
+                    <h2>{{ t.title }}</h2>
+                    <p>
+                        {{ t.date }}
+                    </p>
+                </div>
+            </div>
         {% endfor %}
     </body>
 </html>

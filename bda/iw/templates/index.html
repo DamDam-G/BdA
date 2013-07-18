@@ -10,10 +10,16 @@
         <link href="../public/css/style.css" media="screen" rel="stylesheet" type="text/css">
     </head>
         <body>
-        <a href="index.html" class="ex"><div id="logo"></div></a>
+        <a id="0" class="menu" class="ex">
+            <div id="logo"></div>
+            <audio id="playlist" style="margin-left:auto; margin-right:auto;" controls="true" loop="true" autoplay="true">
+                <source src="../public/sound/paradise.ogv" type="audio/ogg">
+                <source src="../public/sound/paradise.mp3" type="audio/mp3">
+            </audio>
+        </a>
         <nav class="btn-toolbar">
-            <div class="btn-group hidden-tablet hidden-phone me">
-                <a id="1" class="menu" href="#"><button class="btn btn-inverse "><i class="icon-bookmark icon-white"></i>B.D.A</button></a>
+            <div class="btn-group me">
+                <a id="1" class="menu"><button class="btn btn-inverse "><i class="icon-bookmark icon-white"></i>B.D.A</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                 </button>
@@ -25,8 +31,8 @@
                     <li><a id="6"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Théâtre</a></li>
                 </ul>
             </div>
-            <div class="btn-group hidden-tablet hidden-phone me">
-                <a id="7" class="menu" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>P.F.H</button></a>
+            <div class="btn-group me">
+                <a id="7" class="menu"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>P.F.H</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                 </button>
@@ -38,7 +44,7 @@
                     <li><a id="12"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Jeux de Rôle</a></li>
                 </ul>
             </div>
-            <div class="btn-group hidden-tablet hidden-phone me">
+            <div class="btn-group me">
                 <a id="13" class="menu" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Galerie</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -49,12 +55,11 @@
                     <li><a id="16"  class="menu"  href="#"><i class="icon-arrow-right"></i>toto</a></li>
                 </ul>
             </div>&nbsp
-            <a id="17" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
-            <a id="18" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
-            <a id="19" class="menu hidden-tablet hidden-phone me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>
+            <a id="17" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
+            <a id="18" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
+            <a id="19" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>
         </nav>
             <div id="display">
-                {% load filter %}
                 {% for t in data %}
                     <div id="{{ t.id }}" class="span3 artc">
                         <div class="hero-unit">

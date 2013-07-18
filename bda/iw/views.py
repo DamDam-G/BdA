@@ -16,17 +16,6 @@ def Index(request):
     data = msg.objects.order_by('-id')
     return render(request, 'index.html', {'data':data})
 
-def Index2(request):
-    """
-    @author Damien Goldenberg
-    @name Index:
-    @param - Request, HTTPRequest object
-    @details Description:
-    This is a view function. It displays the index
-    """
-    data = msg.objects.order_by('-id')
-    return render(request, 'index2.html', {'data':data})
-
 def Co(request):
     """
     @author Damien Goldenberg
@@ -52,10 +41,11 @@ def Blog(request):
     return render(request, 'blog.html', {'data':data})
 
 def Article(request):
-    data = msg.objects.filter(id=request.POST.get("id"))
-    return render(request, 'article.html', {'data':data})
+    return render(request, 'article.html', {'data':msg.objects.filter(id=request.POST.get("id"))})
 
 def Control(request):
     if request.POST.get("id") and request.is_ajax():
-        views = ['co', 'register', 'pfh']
-        return render_to_response(views[int(request.POST.get("id"))]+'.html', {})
+        id = int(request.POST.get("id"))
+        views = ['blog', 'pfh']
+        data = msg.objects.order_by('-id') if id == 0 else ''
+        return render_to_response(views[id]+'.html', {'data':data})

@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/cook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/diary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/draw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/film.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/game.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/int.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/magic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/music.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/picture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/rpg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/sponsor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/theater.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/views.py" afterPath="$PROJECT_DIR$/bda/iw/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/bda.sql" afterPath="$PROJECT_DIR$/bda/bda.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/models.py" afterPath="$PROJECT_DIR$/bda/iw/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/settings.py" afterPath="$PROJECT_DIR$/bda/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/urls.py" afterPath="$PROJECT_DIR$/bda/urls.py" />
     </list>
     <ignored path="bda.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1374109750159" ignored="false" />
     <file path="/settings.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368180611664" ignored="false" />
     <file path="/views.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1374112587322" ignored="false" />
-    <file path="/urls.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373936338302" ignored="false" />
+    <file path="/urls.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1374112992955" ignored="false" />
     <file path="/blog.php" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368111904053" ignored="false" />
     <file path="/blog.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368181120589" ignored="false" />
     <file path="/filter.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368178262974" ignored="false" />
@@ -59,10 +48,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="165" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.80144405">
+            <state line="48" column="165" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bda/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="21" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bda/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="42" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bda/iw/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="33" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10830325">
               <folding />
             </state>
           </provider>
@@ -91,17 +107,17 @@
         <option value="$PROJECT_DIR$/bda/iw/filter.py" />
         <option value="$USER_HOME$/netpolling/netpolling/iw/views.py" />
         <option value="$PROJECT_DIR$/bda/iw/filter/filter.py" />
-        <option value="$PROJECT_DIR$/bda/settings.py" />
-        <option value="$PROJECT_DIR$/bda/iw/models.py" />
         <option value="$PROJECT_DIR$/bda/iw/public/js/bda2.js" />
         <option value="$PROJECT_DIR$/bda/iw/templates/index2.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/article.html" />
         <option value="$PROJECT_DIR$/bda/iw/public/css/style.css" />
-        <option value="$PROJECT_DIR$/bda/urls.py" />
         <option value="$PROJECT_DIR$/bda/iw/public/js/bda.js" />
         <option value="$PROJECT_DIR$/bda/iw/templates/blog.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/index.html" />
         <option value="$PROJECT_DIR$/bda/iw/views.py" />
+        <option value="$PROJECT_DIR$/bda/settings.py" />
+        <option value="$PROJECT_DIR$/bda/urls.py" />
+        <option value="$PROJECT_DIR$/bda/iw/models.py" />
       </list>
     </option>
   </component>
@@ -184,28 +200,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,13 +426,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1682" height="1003" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1132191" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28335375" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -514,27 +508,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/bda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/int.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/magic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -621,7 +594,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="165" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.80144405">
+        <state line="48" column="165" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="21" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10830325">
           <folding />
         </state>
       </provider>

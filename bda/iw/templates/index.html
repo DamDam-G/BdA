@@ -11,12 +11,13 @@
     </head>
         <body>
         <a id="0" class="menu" class="ex">
+            {% csrf_token %}
             <div id="logo"></div>
-            <audio id="playlist" style="margin-left:auto; margin-right:auto;" controls="true" loop="true" autoplay="true">
-                <source src="../public/sound/paradise.ogv" type="audio/ogg">
-                <source src="../public/sound/paradise.mp3" type="audio/mp3">
-            </audio>
         </a>
+        <audio id="playlist" style="margin-left:auto; margin-right:auto;" controls="true" loop="true" autoplay="true">
+            <source src="../public/sound/paradise.ogv" type="audio/ogg">
+            <source src="../public/sound/paradise.mp3" type="audio/mp3">
+        </audio>
         <nav class="btn-toolbar">
             <div class="btn-group me">
                 <a id="1" class="menu"><button class="btn btn-inverse "><i class="icon-bookmark icon-white"></i>B.D.A</button></a>
@@ -24,7 +25,8 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a id="2"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Intérieur</a></li>
+                    <li><a id="17"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Chauvin</a></li>
+                    <li><a id="2"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Poker</a></li>
                     <li><a id="3"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Jeux</a></li>
                     <li><a id="4"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Magie</a></li>
                     <li><a id="5"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Musique</a></li>
@@ -44,7 +46,7 @@
                     <li><a id="12"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Jeux de Rôle</a></li>
                 </ul>
             </div>
-            <a id="13" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
+            <a id="13" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Galerie</button></a>
             <a id="14" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
             <a id="15" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
             <a id="16" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>

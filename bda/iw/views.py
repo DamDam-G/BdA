@@ -46,7 +46,7 @@ def Article(request):
 def Control(request):
     if request.POST.get("id") and request.is_ajax():
         id = int(request.POST.get("id"))
-        views = ['blog', 'bda', 'int', 'game', 'magic', 'music', 'theater', 'pfh', 'film', 'cook', 'draw', 'diary', 'rpg', 'picture', 'sponsor', 'contact', 'calendar']
+        views = ['blog', 'bda', 'poker', 'game', 'magic', 'music', 'theater', 'pfh', 'film', 'cook', 'draw', 'diary', 'rpg', 'picture', 'sponsor', 'contact', 'calendar', 'chauvin']
         if 0 <= id < len(views):
             data = msg.objects.order_by('-id') if id == 0 else ''
             return render_to_response(views[id]+'.html', {'data':data})

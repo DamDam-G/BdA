@@ -6,6 +6,17 @@
     outline: none;
 }
 
+.poker
+{
+    width:413px;
+    height:290px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(/public/img/poker.png);
+    background-repeat:no-repeat;
+    border-radius:15px;
+}
+
 body
 {
     background: -moz-linear-gradient(top, red 0%, black 20%, white 100%);
@@ -46,7 +57,7 @@ nav
     margin-right:auto;
     margin-bottom:15px;
     margin-top: 15px;
-    background-image:url(../img/logo.png);
+    background-image:url(/public/img/logo.png);
     background-repeat:no-repeat;
     border-radius:15px;
 }

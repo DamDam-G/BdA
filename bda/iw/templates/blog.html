@@ -4,13 +4,20 @@
     </head>
     <body>
         {% for t in data %}
-            <div id="{{ t.id }}" class="span3 artc">
+            <div id="a{{ t.id }}" class="span3 artc">
                 <div class="hero-unit">
                     <h2>{{ t.title }}</h2>
                     <p>
                         {{ t.date }}
                     </p>
                 </div>
+            </div>
+        {% empty %}
+            <div class="hero-unit">
+                <h2>{{ t.title }}</h2>
+                <p>
+                    {{ t.date }}
+                </p>
             </div>
         {% endfor %}
     </body>

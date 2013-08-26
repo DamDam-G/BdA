@@ -23,6 +23,34 @@ $(window).load((function()
                         return cookieValue;
                     }
 
+                    function article()
+                    {
+                        $(".artc").on("click", function(e)
+                                                {
+                                                    $.ajax({
+                                                        type: 'post',
+                                                        headers:
+                                                        {
+                                                            "X-CSRFToken": csrftoken
+                                                        },
+                                                        data:
+                                                        {
+                                                            id:this.id
+                                                        },
+                                                        url: '/article/',
+                                                        success:function(data)
+                                                                {
+                                                                    $("#adisp").html(data);
+                                                                    $("#article").modal("show");
+                                                                },
+                                                        error: function()
+                                                                {
+                                                                    alert('La requête n\'a pas abouti');
+                                                                }
+                                                    })
+                                                });
+                    }
+
                     $("a.menu").on("click", function()
                                                {
                                                    id = this.id
@@ -40,6 +68,10 @@ $(window).load((function()
                                                        success:function(data)
                                                                {
                                                                     $("#display").html(data);
+                                                                   if (id == 0)
+                                                                   {
+                                                                        article();
+                                                                   }
                                                                },
                                                        error: function()
                                                                {
@@ -48,28 +80,5 @@ $(window).load((function()
                                                    })
                                                });
 
-                    $(".artc").on("click", function(e)
-                                            {
-                                                  $.ajax({
-                                                       type: 'post',
-                                                       headers:
-                                                        {
-                                                            "X-CSRFToken": csrftoken
-                                                        },
-                                                       data:
-                                                        {
-                                                           id:this.id
-                                                        },
-                                                       url: '/article/',
-                                                       success:function(data)
-                                                               {
-                                                                    $("#adisp").html(data);
-                                                                    $("#article").modal("show");
-                                                               },
-                                                       error: function()
-                                                               {
-                                                                   alert('La requête n\'a pas abouti');
-                                                               }
-                                                   })
-                                            });
+                    article();
                 })());

@@ -15,7 +15,8 @@ class Calendar(models.Model):
 class Event(models.Model):
     title = models.CharField(_('title'), max_length=100)
     start = models.DateTimeField(_('start'))
-    end = models.DateTimeField(_('start'))
+    end = models.DateTimeField(_('end'))
+    is_cancelled = models.BooleanField(_('Cancelled?'), default=False, blank=True)
 
     calendar = models.ForeignKey(Calendar)
 
@@ -31,3 +32,9 @@ class msg(models.Model):
     title = models.TextField()
     msg = models.TextField()
     date = models.DateTimeField()
+
+class follow(models.Model):
+    id = models.AutoField(primary_key=True)
+    email = models.EmailField()
+    name = models.TextField()
+    firstname = models.TextField()

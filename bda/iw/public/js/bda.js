@@ -23,7 +23,7 @@ $(window).load((function()
                         return cookieValue;
                     }
 
-                    function article()
+                    function Article()
                     {
                         $(".artc").on("click", function(e)
                                                 {
@@ -70,7 +70,42 @@ $(window).load((function()
                                                                     $("#display").html(data);
                                                                    if (id == 0)
                                                                    {
-                                                                        article();
+                                                                        Article()
+                                                                   }
+                                                                   else if (id == 666)
+                                                                   {
+                                                                       $(".follow").on("click", function(e)
+                                                                                                {
+                                                                                                    $.ajax({
+                                                                                                        type: 'post',
+                                                                                                        headers:
+                                                                                                        {
+                                                                                                            "X-CSRFToken": csrftoken
+                                                                                                        },
+                                                                                                        data:
+                                                                                                        {
+                                                                                                            id:this.id
+                                                                                                        },
+                                                                                                        url: '/follow/',
+                                                                                                        success:function(data)
+                                                                                                                {
+
+                                                                                                                },
+                                                                                                        error: function()
+                                                                                                                {
+                                                                                                                    alert('La requête n\'a pas abouti');
+                                                                                                                }
+                                                                                                    })
+                                                                                                });
+                                                                   }
+                                                                   else if (id == 16)
+                                                                   {
+                                                                       $('#calendar').fullCalendar(
+                                                                                                    {
+                                                                                                       header: {left: 'prev,next today', center: 'title', right: 'month,agendaWeek,agendaDay'},
+                                                                                                       editable:false,
+                                                                                                       events:'/events/'
+                                                                                                    });
                                                                    }
                                                                },
                                                        error: function()
@@ -80,5 +115,5 @@ $(window).load((function()
                                                    })
                                                });
 
-                    article();
+                    Article();
                 })());

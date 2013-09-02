@@ -8,5 +8,25 @@
             Composé d’étudiants de 2ème année et de 3ème année, le PFH Cuisine est chargé de nourrir les Esiearques affamés (ils le sont tout le temps) durant différents évènements, notamment pour les Journée Portes Ouvertes. En partenariat avec d'autres PFH  tels que celui de la Désintégration et Troph'ESIEA l'année passée, le PFH Cuisine n’en finit pas de vous régaler !
             <br /><br />Triskell
         </div>
+        <a data-target="#f" role="button" class="label" data-toggle="modal"><i class="icon-bookmark"></i>&nbsp&nbsp Suivre  &nbsp&nbsp</a>
+        <div id="f" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
+                <h3>Suivre le fil d'actualité</h3>
+            </div>
+            <div class="modal-body">
+                <div id="finfo"></div>
+                <form id="followme" enctype="application/x-www-form-urlencoded">
+                    <input type="hidden" name="who" value="">
+                    <label class="control-label" for="ps1">Email</label><input id="ps1" name="email" type="email" placeholder="zozor@gmail.com" required="true" />
+                    <label class="control-label" for="ps2">Nom</label><input id="ps2" name="name" type="text" placeholder="toto" required="true" /><br />
+                    <label class="control-label" for="ps2">Prénom</label><input id="ps2" name="firstname" type="text" placeholder="zozor" required="true" /><br />
+                    <input type="submit" value="Suivre" class="fl"/><br />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
     </body>
 </html>

@@ -14,42 +14,42 @@
             {% csrf_token %}
             <div id="logo"></div>
         </a>
-        <audio id="playlist" style="margin-left:auto; margin-right:auto;" controls="true" loop="true" autoplay="true">
+        <center><audio id="playlist" controls="true" loop="true" autoplay="true">
             <source src="/public/sound/paradise.ogv" type="audio/ogg">
             <source src="/public/sound/paradise.mp3" type="audio/mp3">
-        </audio>
+        </audio></center>
         <nav class="btn-toolbar">
             <div class="btn-group me">
-                <a id="1" class="menu"><button class="btn btn-inverse "><i class="icon-bookmark icon-white"></i>B.D.A</button></a>
+                <a id="1" class="menu"><button class="btn btn-inverse "><i class="icon-picture icon-white"></i>&nbsp&nbsp B.D.A</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a id="17"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Chauvin</a></li>
-                    <li><a id="2"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Poker</a></li>
-                    <li><a id="3"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Jeux</a></li>
-                    <li><a id="4"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Magie</a></li>
-                    <li><a id="5"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Musique</a></li>
-                    <li><a id="6"  class="menu"  href="#"><i class="icon-arrow-right"></i>Pôle Théâtre</a></li>
+                    <li><a id="17"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Chauvin</a></li>
+                    <li><a id="2"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Poker</a></li>
+                    <li><a id="3"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Jeux</a></li>
+                    <li><a id="4"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Magie</a></li>
+                    <li><a id="5"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Musique</a></li>
+                    <li><a id="6"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp Pôle Théâtre</a></li>
                 </ul>
             </div>
             <div class="btn-group me">
-                <a id="7" class="menu"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>P.F.H</button></a>
+                <a id="7" class="menu"><button class="btn btn-inverse"><i class="icon-map-marker icon-white"></i>&nbsp&nbsp P.F.H</button></a>
                 <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a id="8"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Court-métrage</a></li>
-                    <li><a id="9"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Cuisine</a></li>
-                    <li><a id="10"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Dessin</a></li>
-                    <li><a id="11"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Gazette</a></li>
-                    <li><a id="12"  class="menu"  href="#"><i class="icon-arrow-right"></i>PFH Jeux de Rôle</a></li>
+                    <li><a id="8"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp PFH Court-métrage</a></li>
+                    <li><a id="9"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp PFH Cuisine</a></li>
+                    <li><a id="10"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp PFH Dessin</a></li>
+                    <li><a id="11"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp PFH Gazette</a></li>
+                    <li><a id="12"  class="menu"  href="#"><i class="icon-arrow-right"></i>&nbsp&nbsp PFH Jeux de Rôle</a></li>
                 </ul>
             </div>
-            <a id="13" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Galerie</button></a>
-            <a id="14" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Sponsor</button></a>
-            <a id="15" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Contact</button></a>
-            <a id="16" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-bookmark icon-white"></i>Calendrier</button></a>
+            <a id="13" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-screenshot icon-white"></i>&nbsp&nbsp Galerie</button></a>
+            <a id="14" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-certificate icon-white"></i>&nbsp&nbsp Sponsor</button></a>
+            <a id="15" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-user icon-white"></i>&nbsp&nbsp Contact</button></a>
+            <a id="16" class="menu me" href="#"><button class="btn btn-inverse"><i class="icon-calendar icon-white"></i>&nbsp&nbsp Calendrier</button></a>
         </nav>
         <div id="display">
             {% for t in data %}
@@ -63,7 +63,7 @@
                 </div>
             {% endfor %}
         </div><br /><br />
-        <div class="pagination">
+       <!-- <div class="pagination">
             <ul>
                 <li><a href="#">Prev</a></li>
                 <li><a href="#">1</a></li>
@@ -73,7 +73,7 @@
                 <li><a href="#">5</a></li>
                 <li><a href="#">Next</a></li>
             </ul>
-        </div>
+        </div>-->
         <!-- gestion des modal-->
         <div id="article" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-header">

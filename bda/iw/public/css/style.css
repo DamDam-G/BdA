@@ -6,6 +6,16 @@
     outline: none;
 }
 
+.fl
+{
+    width:200px;
+    height:40px;
+    border-radius:15px;
+    color:white;
+    background-color:darkred;
+    background-attachment: fixed;
+}
+
 .poker
 {
     width:413px;
@@ -34,6 +44,7 @@ nav
     padding-left:15px;
     border:2px darkred solid;
     border-radius:15px;
+    text-align: center;
 }
 
 #main

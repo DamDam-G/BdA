@@ -21,7 +21,7 @@ def Events(request):
         else:
             allDay = False
         if not event.is_cancelled:
-            event_list.append({'id': event.id, 'start': event_start.strftime('%Y-%m-%d %H:%M:%S'), 'end': event_end.strftime('%Y-%m-%d %H:%M:%S'), 'title': event.title, 'allDay': allDay})
+            event_list.append({'id': event.id, 'start': event_start.strftime('%Y-%m-%d %H:%M:%S'), 'end': event_end.strftime('%Y-%m-%d %H:%M:%S'), 'title': event.title, 'content': event.desc, 'allDay': allDay})
     if len(event_list) == 0:
         raise http.Http404
     else:
@@ -82,3 +82,18 @@ def Control(request):
         return render_to_response('42.html', {'data':'42, The Big Question of Life, the Universe and Everything.'})
     else:
         return render_to_response('42.html', {'data':'hum hum ... are you stupid?'})
+
+def Follow(request):
+    if request.is_ajax() and request.POST.get("who") and request.POST.get("email") and request.POST.get("name") and request.POST.get("firstname"):
+        b = ['poker', 'game', 'magic', 'music', 'theater', 'film', 'cook', 'draw', 'diary', 'rpg', 'chauvin']
+        n = int(request.POST.get("who"))
+        member = follow()
+        member.email = request.POST.get("email")
+        member.name = request.POST.get("name")
+        member.firstname = request.POST.get("firstname")
+        member.bda = BDA.objects.get(i=n)
+        member.save()
+        return render_to_response('rep.html', {'data':'Le BdA te teindra au courrant de leurs activites : '+b[n]})
+        #return HttpResponse(json.dumps({'':'', 'rep':'Le BdA te teindra au courrant de leurs activites : '+b[n]}))
+    else:
+        return render_to_response('42.html', {'data':'hum hum ... one or more parameters are falses'})

@@ -11,4 +11,5 @@ urlpatterns = patterns('',
                        url(r'^blog/$', 'bda.iw.views.Blog'),
                        url(r'^control/$', 'bda.iw.views.Control'),
                        url(r'^events/$', 'bda.iw.views.Events'),
+                       url(r'^follow/$', 'bda.iw.views.Follow'),
                        url(r'^article/$', 'bda.iw.views.Article'))

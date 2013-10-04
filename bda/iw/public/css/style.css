@@ -16,6 +16,11 @@
     background-attachment: fixed;
 }
 
+.menu
+{
+    text-align:left;
+}
+
 .poker
 {
     width:413px;
@@ -162,6 +167,11 @@ nav
     box-shadow: 8px 8px 12px black;
 }
 
+.konami0, .konami1, .konami2, .konami3
+{
+        -moz-animation:konami 10s ease-in-out;
+}
+
 @-moz-keyframes info-anim
 {
     0%
@@ -171,5 +181,39 @@ nav
     100%
     {
         -moz-transform:translate(0px, 400px);
+    }
+}
+
+@-moz-keyframes konami
+{
+    0%
+    {
+        -moz-transform: translate(600px, 100px);
+        -moz-transition:4s right,3s width,3s opacity;
+    }
+    20%
+    {
+        -moz-transform: translate(3000px, 250px) rotate(180deg);
+        -moz-transition:4s right,3s width,3s opacity;
+    }
+    40%
+    {
+        -moz-transform: translate(-300px, -450px) rotate(90deg), scale(1);
+        -moz-transition:4s right,3s width,3s opacity;
+    }
+    60%
+    {
+        -moz-transform: translate(-600px, 0px) rotate(90deg);
+        -moz-transition:4s right,3s width,3s opacity;
+    }
+    80%
+    {
+        -moz-transform: translate(100px, -230px);
+        -moz-transition:4s right,3s width,3s opacity;
+    }
+    100%
+    {
+        -moz-transform: translate(0px, -600px);
+        -moz-transition:4s right,3s width,3s opacity;
     }
 }

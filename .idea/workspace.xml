@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/js/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/css/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/public/js/gcal.js" />
+    <list default="true" id="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bda/iw/templates/rep.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bda/iw/public/css/task.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bda/iw/templates/task-list.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/admin.py" afterPath="$PROJECT_DIR$/bda/iw/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bda.iml" afterPath="$PROJECT_DIR$/.idea/bda.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/public/js/bda.js" afterPath="$PROJECT_DIR$/bda/iw/public/js/bda.js" />
@@ -23,42 +21,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/models.py" afterPath="$PROJECT_DIR$/bda/iw/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/music.html" afterPath="$PROJECT_DIR$/bda/iw/templates/music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/other.xml" afterPath="$PROJECT_DIR$/.idea/other.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/picture.html" afterPath="$PROJECT_DIR$/bda/iw/templates/picture.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/poker.html" afterPath="$PROJECT_DIR$/bda/iw/templates/poker.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/rpg.html" afterPath="$PROJECT_DIR$/bda/iw/templates/rpg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/settings.py" afterPath="$PROJECT_DIR$/bda/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/public/css/style.css" afterPath="$PROJECT_DIR$/bda/iw/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/templates/theater.html" afterPath="$PROJECT_DIR$/bda/iw/templates/theater.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/urls.py" afterPath="$PROJECT_DIR$/bda/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bda/iw/views.py" afterPath="$PROJECT_DIR$/bda/iw/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bda.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1377527107571" ignored="false" />
-    <file path="/settings.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1377527129334" ignored="false" />
-    <file path="/views.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378125067963" ignored="false" />
-    <file path="/urls.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378125083168" ignored="false" />
-    <file path="/blog.php" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368111904053" ignored="false" />
-    <file path="/blog.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1377411692661" ignored="false" />
-    <file path="/filter.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1368178262974" ignored="false" />
-    <file path="/models.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1377536719700" ignored="false" />
-    <file path="/index.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378126235286" ignored="false" />
-    <file path="$PROJECT_DIR$/bda/iw/public/bootstrap/js/bootstrap.min.js" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373853938829" ignored="false" />
-    <file path="$PROJECT_DIR$/bda/iw/public/bootstrap/css/bootstrap-responsive.css" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373853938829" ignored="false" />
-    <file path="$PROJECT_DIR$/bda/iw/public/bootstrap/css/bootstrap.min.css" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373853938829" ignored="false" />
-    <file path="/bda.js" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378116166116" ignored="false" />
-    <file path="/article.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1373855486384" ignored="false" />
-    <file path="/style.css" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378115474533" ignored="false" />
-    <file path="/admin.py" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1374113336267" ignored="false" />
-    <file path="/chauvin.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376203108906" ignored="false" />
-    <file path="/music.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376201714340" ignored="false" />
-    <file path="/poker.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376203028458" ignored="false" />
-    <file path="/film.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376203190403" ignored="false" />
-    <file path="/cook.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376203262589" ignored="false" />
-    <file path="/42.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1376206444762" ignored="false" />
-    <file path="/task-list.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1377424304625" ignored="false" />
-    <file path="/rpg.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378127179338" ignored="false" />
-    <file path="/calendar.html" changelist="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" time="1378115615147" ignored="false" />
+    <file path="/Dummy.txt" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380897286027" ignored="false" />
+    <file path="/views.py" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380818052791" ignored="false" />
+    <file path="/bda.js" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380818580911" ignored="false" />
+    <file path="/style.css" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380519909914" ignored="false" />
+    <file path="/admin.py" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380643450413" ignored="false" />
+    <file path="/urls.py" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380691060280" ignored="false" />
+    <file path="/rep.html" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380817932057" ignored="false" />
+    <file path="/models.py" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380865877645" ignored="false" />
+    <file path="/picture.html" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380866110104" ignored="false" />
+    <file path="/index.html" changelist="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" time="1380897745177" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,108 +56,120 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DatabaseView">
-    <flatten value="false" />
-    <groupTables value="false" />
-    <sortChildren value="false" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="bda" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="chauvin.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/chauvin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="52" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.65340906">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cook.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/cook.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="1245" selection-end="1245" vertical-scroll-proportion="-11.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/diary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="822" selection-end="822" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draw.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/draw.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="film.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/film.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="52" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-12.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/game.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/magic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/music.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="52" selection-start="1503" selection-end="1514" vertical-scroll-proportion="-17.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poker.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/poker.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="52" selection-start="1627" selection-end="1638" vertical-scroll-proportion="-14.916667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpg.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bda/iw/templates/rpg.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="779" selection-end="789" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41868758">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bda/iw/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="62" column="8" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.7752809">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="picture.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/picture.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="95" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-20.625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/blog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="75" column="29" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bda.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/public/js/bda.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="81" column="14" selection-start="5091" selection-end="5091" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rep.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/rep.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="42.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/42.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="14" selection-start="93" selection-end="156" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="net.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/netpolling/netpolling/iw/public/js/net.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="683" column="47" selection-start="45185" selection-end="45185" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chauvin.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/chauvin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="17" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.375">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="123" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.2843691">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -184,7 +180,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
-    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -192,22 +187,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bda/iw/templates/calendar.html" />
-        <option value="$PROJECT_DIR$/bda/iw/views.py" />
-        <option value="$PROJECT_DIR$/bda/urls.py" />
-        <option value="$PROJECT_DIR$/bda/iw/public/js/bda.js" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/index.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/picture.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/rpg.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/poker.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/draw.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/cook.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/film.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/theater.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/music.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/magic.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/game.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/film.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/draw.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/diary.html" />
-        <option value="$PROJECT_DIR$/bda/iw/templates/cook.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/poker.html" />
         <option value="$PROJECT_DIR$/bda/iw/templates/chauvin.html" />
+        <option value="$PROJECT_DIR$/bda/urls.py" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/rep.html" />
+        <option value="$PROJECT_DIR$/bda/iw/views.py" />
+        <option value="$PROJECT_DIR$/bda/iw/public/js/bda.js" />
+        <option value="$PROJECT_DIR$/bda/iw/models.py" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/picture.html" />
+        <option value="$PROJECT_DIR$/bda/iw/templates/index.html" />
       </list>
     </option>
   </component>
@@ -293,80 +288,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <PyConsoleSettings />
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
-    </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bda/iw/public/js" />
-      <recent name="$PROJECT_DIR$/bda/iw/public/css" />
-      <recent name="$PROJECT_DIR$/bda/iw/public/img" />
-      <recent name="$PROJECT_DIR$/bda/iw/templates" />
-      <recent name="$PROJECT_DIR$/bda/iw/public" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bda" />
+      <recent name="$PROJECT_DIR$/bda/iw" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.bda">
@@ -385,29 +321,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bda" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -433,6 +346,29 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bda" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -451,13 +387,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -498,28 +427,11 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0ff7f9b-1c77-4b21-a4a3-e8beda03c05d" name="Default" comment="" />
-      <created>1368110001609</created>
-      <updated>1368110001609</updated>
+      <changelist id="6dd3d76c-70f8-44e6-97fe-1bd91b69ce4a" name="Default" comment="" />
+      <created>1380087837285</created>
+      <updated>1380087837285</updated>
     </task>
     <servers />
   </component>
@@ -527,20 +439,20 @@
     <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14887941" sideWeight="0.6677966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25186765" sideWeight="0.67118645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -607,114 +519,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/magic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="17" selection-start="4684" selection-end="4684" vertical-scroll-proportion="0.4417745">
-          <folding />
-        </state>
+        <state line="15" column="60" selection-start="798" selection-end="798" vertical-scroll-proportion="-9.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="798" selection-end="798" vertical-scroll-proportion="-9.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/poker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="60" selection-start="1646" selection-end="1646" vertical-scroll-proportion="-15.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="61" selection-start="629" selection-end="629" vertical-scroll-proportion="0.31858408">
+        <state line="14" column="40" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/netpolling/netpolling/iw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/42.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="93" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/rep.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/netpolling/netpolling/iw/public/js/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="683" column="47" selection-start="45185" selection-end="45185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/public/js/bda.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.33451328">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="611" selection-end="611" vertical-scroll-proportion="0.33271718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="1" selection-start="970" selection-end="970" vertical-scroll-proportion="0.57522124">
+        <state line="81" column="14" selection-start="5091" selection-end="5091" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="89" selection-end="89" vertical-scroll-proportion="0.16635859">
+        <state line="33" column="95" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-20.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/rpg.html">
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="779" selection-end="789" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/poker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="1627" selection-end="1638" vertical-scroll-proportion="-14.916667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="1503" selection-end="1514" vertical-scroll-proportion="-17.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/magic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/draw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/diary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="822" selection-end="822" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bda/iw/templates/cook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="1245" selection-end="1245" vertical-scroll-proportion="-11.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bda/iw/templates/chauvin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.65340906">
+        <state line="7" column="17" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="29" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bda/iw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="8" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.7752809">
           <folding />
         </state>
       </provider>

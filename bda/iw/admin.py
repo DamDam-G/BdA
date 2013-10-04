@@ -12,3 +12,5 @@ class EventAdmin(admin.ModelAdmin):
 admin.site.register(Event, EventAdmin)
 admin.site.register(Calendar, CalendarAdmin)
 admin.site.register(msg)
+admin.site.register(follow)
+admin.site.register(BDA)
